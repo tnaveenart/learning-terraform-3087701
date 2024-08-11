@@ -1,4 +1,4 @@
-provider "aws_region" {
+provider "aws_region" "region" {
    region = "us-west-2"
 }
 data "aws_ami" "app_ami" {
