@@ -1,6 +1,5 @@
-provider "aws" {
-  version = "~> 2.0"
-  region = "us-west-2"
+provider "aws_region" {
+   region = "us-west-2"
 }
 data "aws_ami" "app_ami" {
   most_recent = true
